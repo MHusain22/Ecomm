@@ -1,0 +1,34 @@
+.moreproducts{
+    /* background-color: rgb(220, 220, 220); */
+}
+.toprated{
+    display: flex;
+    flex-basis: 50%;
+}
+.pack{
+    padding: 10px;
+    background-color: #fff;
+    width: 400px;
+    display: flex;
+}
+
+.back{
+    background-image: url('../images/lastp.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 70px;
+}
+
+.back button{
+    background: #fff;
+    color: black;
+    border: none;
+    padding: 13px 30px 13px 30px;
+}
+
+.too{
+    padding-top: 100px;
+}

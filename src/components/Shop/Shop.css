@@ -1,0 +1,71 @@
+.shop{
+    margin-top: 4em;
+    display: flex;
+}
+.row{
+    flex-basis: 33%;
+}
+.leftshop{
+    border: 1px solid black;
+    width: 100px;
+    height: 700px;
+    flex-basis: 35%;
+    margin:20px 0px 0px 50px;
+    padding: 20px;
+}
+.leftshop ul li{
+    margin: 9px 0px;
+    font-size: 17px;
+}
+.leftshop h3{
+    margin: 20px 0px;
+}
+.compselect{
+    padding: 10px 25px 10px 25px;
+    background-color: hsla(0, 0%, 90%, 0.839);
+    outline: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+.fl{
+    display: flex;
+    flex-direction: column;
+}
+.coln{
+    flex-basis: 33%;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 20px 0px rgb(0,0,0,0.1);
+    transition: transform 0.5s;
+    position: relative;
+}
+.coln:hover{
+    transform: translateY(-5px);
+    background-color: rgba(0, 0, 0, 0.051);   
+}
+
+.coln img{
+    width: 250px;
+    height: 200px;
+    margin-left: 24px;
+}
+
+.coln h3,h6,h2,button{
+    margin-left: 24px;
+}
+
+
+.sortselect{
+    position: absolute;
+    right: 10.3em;
+    top: 5em;
+    padding: 10px 25px 10px 25px;
+    background-color: hsla(0, 0%, 90%, 0.839);
+    outline: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+.sortselect option{
+    background-color: hsla(0, 0%, 90%, 0.839);
+    border: none;
+}

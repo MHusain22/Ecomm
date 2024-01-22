@@ -1,0 +1,77 @@
+/* NAVBAR */
+.header{
+    background-image: url('../images/headpbg.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: #fff;
+
+    /* * elem */
+   
+}
+
+.logo{
+    color: #fff;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 60px 15px 60px;
+}
+
+.last{
+    text-align: center;
+    display: flex;
+
+}
+.log {
+    margin-top: 20px ;
+    font-size: 17px;
+}
+.last a{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    
+}
+.cart{
+    width: 44px;
+    height: 44px;
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 10px;
+    filter: brightness(0) invert();
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+/* MIDDLE */
+
+.middle{
+    text-align: center;
+    margin-top: 12em;
+    height: 100vh;
+}
+
+.middle p {
+    line-height: 40px;  
+}
+
+.middle button {
+    text-decoration: none;
+    padding: 15px 40px;
+    background: #fff;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+}

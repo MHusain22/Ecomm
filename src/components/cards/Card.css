@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.smallcontainer{
+    max-width: 1300px;
+    margin: auto;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col{
+    margin-top: 4em;
+    flex-basis: 25%;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgb(0,0,0,0.1);
+    transition: transform 0.5s;
+}
+
+.col:hover{
+    transform: translateY(-5px);
+}
+
+/* .col2{
+    flex-basis: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    height: 300px;
+    box-shadow: 0 0 30px 2px rgb(0,0,0,0.1);
+}
+
+.first{
+    background-image: url("../images/buds.png");
+    width: 100%;
+    transform: scaleX(-1);
+    background-attachment: fixed;
+}
+.second{
+    background-image: url("../images/speaker.png");
+    background-attachment: fixed;
+    background-position: center;
+    
+    width: 100%;
+    
+} */
